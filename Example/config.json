@@ -1,0 +1,14 @@
+{
+	"serUrl":"https://jsonconfig.chiji-h5.com/json/qddshell/qddshell.json",
+	"ver":1,
+	"gameID": "4",
+	"gameName":"趣多多",
+	"channel":"qddshell",
+	"wx_appid":"wx28e6b2fc3d6077af",
+	"td_appid":"10E9604F52D445039C964C0E5D9A6786",
+	"bugly_appid":"1a4c6bf914",
+	"bugly_debugMode":false,
+	"csj_appid":"5037884",
+	"csj_appname":"趣多多",
+	"td_Adtracking_appid":"1C3481A9890C4D33AAAD4766BBD22F94"
+}

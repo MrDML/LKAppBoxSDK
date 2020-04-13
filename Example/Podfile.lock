@@ -1,0 +1,23 @@
+PODS:
+  - LKAppBoxSDK (0.1.2):
+    - SSZipArchive (~> 2.2.2)
+  - SSZipArchive (2.2.2)
+
+DEPENDENCIES:
+  - LKAppBoxSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  LKAppBoxSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKAppBoxSDK: b4e76d2e83f3762aecaeee7f3e613580a31f725a
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+
+PODFILE CHECKSUM: 759c3fa121135a73a928cb2a641aea61fb556b07
+
+COCOAPODS: 1.9.1
