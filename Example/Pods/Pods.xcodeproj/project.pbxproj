@@ -22,7 +22,6 @@
 /* Begin PBXBuildFile section */
 		09A3F833557871F87D436B45EDD0E799 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		119E87EE256C87E7DAF64322258C85B5 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */; };
-		1D6FE77FB7A428CA8B1F1509EFAFAE47 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBEEFC884C2784E6DAD216B7D17F75 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m */; };
 		237D0285E668C23D9920337739EDCD9E /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F76376E4B8552B54CAA3D58BDAC5E38 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3724236E11BCE0D855F55E84B6FC24E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
@@ -39,13 +38,13 @@
 		6FA459CC819428F49B10B1C67000A7A0 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		88E1EABD5FC5ADD9813ED0B891084438 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */; };
 		8B45C52F0879C3F78F563E50BFCE1AF8 /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8DFC7831EED6C9DB632BBD547DC7C48F /* Pods-LKAppBoxSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC4BCA1C6BB4AE012180F1A4EBAA60C /* Pods-LKAppBoxSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFC7831EED6C9DB632BBD547DC7C48F /* Pods-LKAppBoxSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B97936951C774865BDB85CE2A491255 /* Pods-LKAppBoxSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		928C7F2C1FB9955D76FEF82B39E70081 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */; };
 		979C58293B916249E5EE7C74BFFA8A46 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */; };
 		9B367CFCB88FA6CDBFAF83E649CE4858 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D26CFEE73FA48CD838C33F5206262DB /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9F8C0AD6928C6E4543BAF2D051884AA8 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F214418C26E50F448F808D370271AC /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A53F26FAFAAF5605BF2CD83FE23CD6CB /* Pods-LKAppBoxSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C740AF27D6D1346082E653E94A31151 /* Pods-LKAppBoxSDK_Example-dummy.m */; };
+		A53F26FAFAAF5605BF2CD83FE23CD6CB /* Pods-LKAppBoxSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67614187DE9E40A570A99DE157B43BDF /* Pods-LKAppBoxSDK_Example-dummy.m */; };
 		A9D07A98C702C95FD32C80DFB5554D54 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */; };
 		AC204AD20B1DF2D29867E63DAF16BEBA /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B19BE6DFF98138AEF6652F7630C2A7AC /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 137B773281D1784B869061E2702C14AC /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,10 +56,8 @@
 		D9124665CE3FCDD071DA4909C8D2F917 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */; };
 		DF5BB4378AE9B0E582CD39248C15C840 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9A4AF83B5191E7EEE30868DD11EC793 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EAC1B93C8B1CD97AAFBBDE7BF9D025F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
 		EC12011A8A47B58AF3295E37E9842333 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
 		F0FB1DD0D78EC24E948FDCF24562601E /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */; };
-		F4AB0CD2B63F816288CFA111F3910FB5 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B29F9C8C8AE43BB219F8C0BA409676 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F69283CF52A0F2D050D4503FC0DA2D74 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */; };
 		F72FEB20401383A06A1436EF56BE8BFF /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6039163DC3583F66F6478C16060E1041 /* mz_compat.c */; };
 /* End PBXBuildFile section */
@@ -73,26 +70,12 @@
 			remoteGlobalIDString = C4D7F3E774806135E98585EF1A1B95AF;
 			remoteInfo = LKAppBoxSDK;
 		};
-		36BE7D31EC8D81F5145FD0FC5E2591B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
-			remoteInfo = SSZipArchive;
-		};
 		523F8CACB6D455099ECE799A1EAB16F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
 			remoteInfo = SSZipArchive;
-		};
-		572F94EE521EE216F108F178821FB362 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4D7F3E774806135E98585EF1A1B95AF;
-			remoteInfo = LKAppBoxSDK;
 		};
 		93989358BACA2405186EA73C1A98E22A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -105,42 +88,38 @@
 
 /* Begin PBXFileReference section */
 		05D197E6397C69F9EAE3DD5C30CF1132 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
-		0B687CAF2FDE44DDE96BE22924209A6A /* Pods-LKAppBoxSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		0C78B2FFEC9AA4E87EDD5EFA1FBF2D14 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
 		137B773281D1784B869061E2702C14AC /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
 		19467C51B22A8ECBA845A171E87CE789 /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
 		1D405B29702C038B9FE41A7A1915BDEA /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
-		1E560D407EC87EFA68932F342E85EF69 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-resources.sh"; sourceTree = "<group>"; };
 		1F47706BF8968995F75BF7F217C2CE7D /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
 		247357E469658C2B6BD6446B2611DBE8 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
-		2ACA17C1F0734EA93E083963787724C0 /* Pods-LKAppBoxSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKAppBoxSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C8008EB502B945CAF9D29E34B2D8DF7 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
 		3194A76380B51FA273FDAD55333E62AA /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
 		330559227BB32F2A6D714183D82AEEF9 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
-		3931256587E5C5E04177E783E55A3432 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK.modulemap"; sourceTree = "<group>"; };
 		3ABBEC40183AF09CA1D111F88ABF8218 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
-		3C740AF27D6D1346082E653E94A31151 /* Pods-LKAppBoxSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKAppBoxSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		3AD3CF0492BD7C5069F280C5FBEDC13E /* Pods-LKAppBoxSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKAppBoxSDK_Example.modulemap"; sourceTree = "<group>"; };
+		3B97936951C774865BDB85CE2A491255 /* Pods-LKAppBoxSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKAppBoxSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		43FCFF9A4ADDFDC71E4ED42F6FFD0478 /* Pods-LKAppBoxSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKAppBoxSDK_Example.modulemap"; sourceTree = "<group>"; };
 		496469B0BB2F10550AE745169EBA3336 /* LKAppBoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LKAppBoxSDK.framework; path = LKAppBoxSDK/Products/LKAppBoxSDK.framework; sourceTree = "<group>"; };
 		4BE8B8A51FA452FF4595F824B9A03664 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
 		50303ABD5323474DFAB9207C2E90A23D /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
-		5274BED31D77D1BC6D929EC4E1EDE1CC /* Pods-LKAppBoxSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55A0D7BD96DDEBFDCDF1333B4413213E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		55DB5B603BB010C8CE0265384546DB2F /* Pods-LKAppBoxSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		56F214418C26E50F448F808D370271AC /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
 		5BD5C2AAD8DB0D02EFA863496AFC97E0 /* LKAppBoxSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKAppBoxSDK.release.xcconfig; sourceTree = "<group>"; };
-		5C66B9151A894A261F8A6A2D075C28A0 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		6039163DC3583F66F6478C16060E1041 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
 		62ABE168406E932E01F30CEA187C3532 /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
-		637F232D5D37B0E24A5026AB9DA045AF /* Pods_LKAppBoxSDK_Example_LKAppBoxSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKAppBoxSDK_Example_LKAppBoxSDK.framework; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DAF1A11EF7816266CDA5F963ABB74B /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
 		64CD3AE56F2709B2EB4C1E37521E5CB9 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
-		67F51E93A6D495F33E0DC193DF29330B /* Pods-LKAppBoxSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		68B29F9C8C8AE43BB219F8C0BA409676 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h"; sourceTree = "<group>"; };
+		67614187DE9E40A570A99DE157B43BDF /* Pods-LKAppBoxSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKAppBoxSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		676DFDCE639A79D0A7316F5D2E716204 /* Pods-LKAppBoxSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKAppBoxSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		6E1FD80C55B0D8107869642C0B319575 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7412B79FDEC93DE9EBF3BD623A96C645 /* LKAppBoxSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LKAppBoxSDK.bundle; path = LKAppBoxSDK/Assets/LKAppBoxSDK.bundle; sourceTree = "<group>"; };
 		747706CCF1CAD0AE4681C773E8BE53C4 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
 		7A67216C6441EDC9E1D5E96247AB86D6 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
 		7AE5CF65F73A53BE6A1CAF8C1489BCA3 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		7C27E970C838439604B8452534E49FAF /* Pods-LKAppBoxSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKAppBoxSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DD28CF5F4CD6F2B6DAC62BA66AECE45 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
 		8031BB2ACE030DB74DF926B786C360CF /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		80ED9DEBAA30349E5E5C18E657EAE5B1 /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
@@ -150,30 +129,24 @@
 		933C3C840DF875833BAE62D20BE8A69D /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
 		93DC41DB91B5B46929E4C1020333E514 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
 		9A419238D1BA469827AD20D62134960B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9AB1EC06237C342DCA1AF954CE29D40A /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9AFBEEFC884C2784E6DAD216B7D17F75 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m"; sourceTree = "<group>"; };
-		9BC4BCA1C6BB4AE012180F1A4EBAA60C /* Pods-LKAppBoxSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKAppBoxSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB42304A6348E069A1D7E14E9237A36 /* LKAppBoxSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKAppBoxSDK.debug.xcconfig; sourceTree = "<group>"; };
-		A93ABA023055E43D71DFA2710167DAF8 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		AEA4FFB9DFD7B226B87D3C14E1858092 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB6B4EC4E3ACE44A8CF8FED2B6E6589 /* Pods-LKAppBoxSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKAppBoxSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AF2AE1BDE666EFAFF8B4AE5A6E914C47 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
 		B11E04539D383D452604D2DA13A01732 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
-		B71CFB2F30B599036C28AD1D1194AB86 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK.release.xcconfig"; sourceTree = "<group>"; };
 		BA66E45AF32C29F9054212BAC89F78AA /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
+		BA6D1A632E6A81A3C1C232DD5FF5C516 /* Pods-LKAppBoxSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAppBoxSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB05B0CC2B9CE51AD29EB99974D362F0 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
 		BC97653C837540D846ACA797247E053A /* LKAppBoxSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKAppBoxSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCB188A05BDC1122FE705F99128D5211 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
-		C48513EC20127C6705E7973D17EE251E /* Pods-LKAppBoxSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKAppBoxSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C49E740821230CC01B91E37F6AF70EF0 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK-Info.plist"; sourceTree = "<group>"; };
 		C4BC37A4A458488B9734949C67F655DA /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
 		C59DD68BD854AEB4CF64B527F22BE5A4 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
 		D218395C76B4915809B0CC2DDA9B721D /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
 		DF6A059F42EEDB1CD29AB3AF19549FB8 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
 		E3AD772CDC2D01664F4A9518B438FDE9 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
 		E96856312D02BCB9A7F6895A75A1FF16 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		EE07B661E47A502ADBFCE9D2B69A9C65 /* Pods-LKAppBoxSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKAppBoxSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F38B1EF0EC0B5470588EE46E0A13C494 /* Pods-LKAppBoxSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKAppBoxSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		F633EF635F24CD8D1246CCA678BFC480 /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
 		FEB8CF74030C592600497180DDD2AD1B /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,14 +158,6 @@
 			files = (
 				3724236E11BCE0D855F55E84B6FC24E1 /* Foundation.framework in Frameworks */,
 				EC12011A8A47B58AF3295E37E9842333 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DFE0EC7FAA340051BEC47509B133391 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAC1B93C8B1CD97AAFBBDE7BF9D025F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,16 +212,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6F99F87E0E67943D01A9B767C1AF1893 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				873FD3B1298720AD98B944414F7F7C28 /* Pods_LKAppBoxSDK_Example.framework */,
-				637F232D5D37B0E24A5026AB9DA045AF /* Pods_LKAppBoxSDK_Example_LKAppBoxSDK.framework */,
-				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		746522F4B1D02DBED4235D794D860584 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,13 +230,13 @@
 			path = "Example/Pods/Target Support Files/LKAppBoxSDK";
 			sourceTree = "<group>";
 		};
-		AFCF307E3630865B2C8E9949DCC08AFA /* Targets Support Files */ = {
+		97E4B9486B2EBDE9CA12BF87A126A911 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBECF1635BBB4F00ED809535468AC9B3 /* Pods-LKAppBoxSDK_Example */,
-				FCACC79491306699D6264C40620F34BE /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK */,
+				873FD3B1298720AD98B944414F7F7C28 /* Pods_LKAppBoxSDK_Example.framework */,
+				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C5FC56FA63CBC7C65E39906F9F2E41F4 /* Pod */ = {
@@ -301,9 +256,17 @@
 				FB6467528DD53985B25AA9B8528B97F2 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4C2EFC1AA7AA397C59A05B54BB923DDA /* Pods */,
-				6F99F87E0E67943D01A9B767C1AF1893 /* Products */,
-				AFCF307E3630865B2C8E9949DCC08AFA /* Targets Support Files */,
+				97E4B9486B2EBDE9CA12BF87A126A911 /* Products */,
+				D149E1F47A45CA2373126BC087CB76C1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D149E1F47A45CA2373126BC087CB76C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C3C41A68769E673B0CA015BCAA616 /* Pods-LKAppBoxSDK_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D4F0A10351119CAD3C1ECDB19C8C8D3A /* LKAppBoxSDK */ = {
@@ -316,24 +279,6 @@
 			);
 			name = LKAppBoxSDK;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		DBECF1635BBB4F00ED809535468AC9B3 /* Pods-LKAppBoxSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				43FCFF9A4ADDFDC71E4ED42F6FFD0478 /* Pods-LKAppBoxSDK_Example.modulemap */,
-				2ACA17C1F0734EA93E083963787724C0 /* Pods-LKAppBoxSDK_Example-acknowledgements.markdown */,
-				67F51E93A6D495F33E0DC193DF29330B /* Pods-LKAppBoxSDK_Example-acknowledgements.plist */,
-				3C740AF27D6D1346082E653E94A31151 /* Pods-LKAppBoxSDK_Example-dummy.m */,
-				C48513EC20127C6705E7973D17EE251E /* Pods-LKAppBoxSDK_Example-frameworks.sh */,
-				0B687CAF2FDE44DDE96BE22924209A6A /* Pods-LKAppBoxSDK_Example-Info.plist */,
-				F38B1EF0EC0B5470588EE46E0A13C494 /* Pods-LKAppBoxSDK_Example-resources.sh */,
-				9BC4BCA1C6BB4AE012180F1A4EBAA60C /* Pods-LKAppBoxSDK_Example-umbrella.h */,
-				AEA4FFB9DFD7B226B87D3C14E1858092 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */,
-				5274BED31D77D1BC6D929EC4E1EDE1CC /* Pods-LKAppBoxSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-LKAppBoxSDK_Example";
-			path = "Target Support Files/Pods-LKAppBoxSDK_Example";
 			sourceTree = "<group>";
 		};
 		E6859DA5AB1BC62C11CE35942847AE21 /* SSZipArchive */ = {
@@ -378,6 +323,24 @@
 			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
+		EC9C3C41A68769E673B0CA015BCAA616 /* Pods-LKAppBoxSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3CF0492BD7C5069F280C5FBEDC13E /* Pods-LKAppBoxSDK_Example.modulemap */,
+				7C27E970C838439604B8452534E49FAF /* Pods-LKAppBoxSDK_Example-acknowledgements.markdown */,
+				55DB5B603BB010C8CE0265384546DB2F /* Pods-LKAppBoxSDK_Example-acknowledgements.plist */,
+				67614187DE9E40A570A99DE157B43BDF /* Pods-LKAppBoxSDK_Example-dummy.m */,
+				AAB6B4EC4E3ACE44A8CF8FED2B6E6589 /* Pods-LKAppBoxSDK_Example-frameworks.sh */,
+				EE07B661E47A502ADBFCE9D2B69A9C65 /* Pods-LKAppBoxSDK_Example-Info.plist */,
+				676DFDCE639A79D0A7316F5D2E716204 /* Pods-LKAppBoxSDK_Example-resources.sh */,
+				3B97936951C774865BDB85CE2A491255 /* Pods-LKAppBoxSDK_Example-umbrella.h */,
+				6E1FD80C55B0D8107869642C0B319575 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */,
+				BA6D1A632E6A81A3C1C232DD5FF5C516 /* Pods-LKAppBoxSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-LKAppBoxSDK_Example";
+			path = "Target Support Files/Pods-LKAppBoxSDK_Example";
+			sourceTree = "<group>";
+		};
 		ED78E23C1724838ADAA01A16E1C32FC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,23 +355,6 @@
 				D4F0A10351119CAD3C1ECDB19C8C8D3A /* LKAppBoxSDK */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FCACC79491306699D6264C40620F34BE /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3931256587E5C5E04177E783E55A3432 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.modulemap */,
-				9AB1EC06237C342DCA1AF954CE29D40A /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.markdown */,
-				A93ABA023055E43D71DFA2710167DAF8 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-acknowledgements.plist */,
-				9AFBEEFC884C2784E6DAD216B7D17F75 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m */,
-				C49E740821230CC01B91E37F6AF70EF0 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-Info.plist */,
-				1E560D407EC87EFA68932F342E85EF69 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-resources.sh */,
-				68B29F9C8C8AE43BB219F8C0BA409676 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h */,
-				5C66B9151A894A261F8A6A2D075C28A0 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.debug.xcconfig */,
-				B71CFB2F30B599036C28AD1D1194AB86 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.release.xcconfig */,
-			);
-			name = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK";
-			path = "Target Support Files/Pods-LKAppBoxSDK_Example-LKAppBoxSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,37 +393,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAD5D4A23B41FA7B334B7E71E330B28A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4AB0CD2B63F816288CFA111F3910FB5 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0604409F3E6ED69B3FDB8A249E7BB9EE /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81B294ACA335AB9B0A676F8DA15370F3 /* Build configuration list for PBXNativeTarget "Pods-LKAppBoxSDK_Example-LKAppBoxSDK" */;
-			buildPhases = (
-				BAD5D4A23B41FA7B334B7E71E330B28A /* Headers */,
-				C8592F996EF251F9CF574FF2A8987601 /* Sources */,
-				1DFE0EC7FAA340051BEC47509B133391 /* Frameworks */,
-				3356F6CF2DA6FAA8E860C3E7FE2D7BA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC34931CB72917A6402136430A79A68F /* PBXTargetDependency */,
-				0F09B3038498DEC3936B2842128428F4 /* PBXTargetDependency */,
-			);
-			name = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK";
-			productName = "Pods-LKAppBoxSDK_Example-LKAppBoxSDK";
-			productReference = 637F232D5D37B0E24A5026AB9DA045AF /* Pods_LKAppBoxSDK_Example_LKAppBoxSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		766F8C4873077319755908E09DAEC6C0 /* Pods-LKAppBoxSDK_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89A9C905510EEA7843F5F1041C7C5C99 /* Build configuration list for PBXNativeTarget "Pods-LKAppBoxSDK_Example" */;
@@ -534,26 +452,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6F99F87E0E67943D01A9B767C1AF1893 /* Products */;
+			productRefGroup = 97E4B9486B2EBDE9CA12BF87A126A911 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C4D7F3E774806135E98585EF1A1B95AF /* LKAppBoxSDK */,
 				766F8C4873077319755908E09DAEC6C0 /* Pods-LKAppBoxSDK_Example */,
-				0604409F3E6ED69B3FDB8A249E7BB9EE /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK */,
 				F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3356F6CF2DA6FAA8E860C3E7FE2D7BA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6BDD56BF41DAF60CA680C790B3E18110 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,23 +513,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8592F996EF251F9CF574FF2A8987601 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D6FE77FB7A428CA8B1F1509EFAFAE47 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F09B3038498DEC3936B2842128428F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSZipArchive;
-			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = 36BE7D31EC8D81F5145FD0FC5E2591B4 /* PBXContainerItemProxy */;
-		};
 		80176E54E3519E6CEEB1D196E05B1069 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LKAppBoxSDK;
@@ -638,49 +534,9 @@
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
 			targetProxy = 93989358BACA2405186EA73C1A98E22A /* PBXContainerItemProxy */;
 		};
-		BC34931CB72917A6402136430A79A68F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LKAppBoxSDK;
-			target = C4D7F3E774806135E98585EF1A1B95AF /* LKAppBoxSDK */;
-			targetProxy = 572F94EE521EE216F108F178821FB362 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		35EEF4924FB4D48B3A392BAFF46C2154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B71CFB2F30B599036C28AD1D1194AB86 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LKAppBoxSDK_Example-LKAppBoxSDK/Pods-LKAppBoxSDK_Example-LKAppBoxSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LKAppBoxSDK_Example-LKAppBoxSDK/Pods-LKAppBoxSDK_Example-LKAppBoxSDK.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -850,7 +706,7 @@
 		};
 		8BDC269646C393B2DCE0F292852F48CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA4FFB9DFD7B226B87D3C14E1858092 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 6E1FD80C55B0D8107869642C0B319575 /* Pods-LKAppBoxSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -926,42 +782,9 @@
 			};
 			name = Release;
 		};
-		DD92E27478160EA58239D0B8987C0591 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C66B9151A894A261F8A6A2D075C28A0 /* Pods-LKAppBoxSDK_Example-LKAppBoxSDK.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LKAppBoxSDK_Example-LKAppBoxSDK/Pods-LKAppBoxSDK_Example-LKAppBoxSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LKAppBoxSDK_Example-LKAppBoxSDK/Pods-LKAppBoxSDK_Example-LKAppBoxSDK.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EBCD72CAD2A270EC2A699AB856E6DA5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5274BED31D77D1BC6D929EC4E1EDE1CC /* Pods-LKAppBoxSDK_Example.release.xcconfig */;
+			baseConfigurationReference = BA6D1A632E6A81A3C1C232DD5FF5C516 /* Pods-LKAppBoxSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1019,15 +842,6 @@
 			buildConfigurations = (
 				804D07F1E25BDBEA776155C7A62DED62 /* Debug */,
 				C810546211B2DDA8C6692B9CF1386C02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81B294ACA335AB9B0A676F8DA15370F3 /* Build configuration list for PBXNativeTarget "Pods-LKAppBoxSDK_Example-LKAppBoxSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD92E27478160EA58239D0B8987C0591 /* Debug */,
-				35EEF4924FB4D48B3A392BAFF46C2154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
