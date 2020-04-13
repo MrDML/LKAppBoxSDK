@@ -62,11 +62,7 @@
 		</data>
 		<key>Headers/LKAppBoxManager.h</key>
 		<data>
-		uk1k1ugrykKSivvNJ1vP4m7ybnE=
-		</data>
-		<key>Headers/LKAppBoxSDK-umbrella.h</key>
-		<data>
-		LYrswl4IPu5pKBoQbzxVZCWOSDg=
+		2heEQPagAE09TmCAdOWE09eJShM=
 		</data>
 		<key>Headers/LKAppBoxSDK.h</key>
 		<data>
@@ -78,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4kcM7xVorh7hUIXLv8ibnFKXGF0=
+		1wXVdTClQbQ5tlOx8SULHHgfhL4=
 		</data>
 		<key>LKAppBoxSDK.bundle/pika.gif</key>
 		<data>
@@ -86,7 +82,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		4Z/l/hXgFj8ckMIeilv5SYyn+4g=
+		Dxt15Y/YpupktJ0/bodHa4uipQ8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -249,22 +245,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1k1ugrykKSivvNJ1vP4m7ybnE=
+			2heEQPagAE09TmCAdOWE09eJShM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vYBjmhPG7wK+1jjZxTYlkU9tesaedS1aUyvc0rF5c/Q=
-			</data>
-		</dict>
-		<key>Headers/LKAppBoxSDK-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LYrswl4IPu5pKBoQbzxVZCWOSDg=
-			</data>
-			<key>hash2</key>
-			<data>
-			uGWo/h4skdDfpMkFvvfpFgetvrVLV72ZDFIo/NoOrno=
+			CbCa4b4mtLqJWZ+Uh1oYgeoSWX9r2DgKYjUJZkh+cL0=
 			</data>
 		</dict>
 		<key>Headers/LKAppBoxSDK.h</key>
@@ -304,11 +289,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Z/l/hXgFj8ckMIeilv5SYyn+4g=
+			Dxt15Y/YpupktJ0/bodHa4uipQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lLBvcC5XigkaLw09Mv1eAQptidl5Dv3BVOEXQdIW1+o=
+			6djZXpNYeWwXvyTYOg/T7svpbwamURxy/W36Sf2CGhI=
 			</data>
 		</dict>
 	</dict>

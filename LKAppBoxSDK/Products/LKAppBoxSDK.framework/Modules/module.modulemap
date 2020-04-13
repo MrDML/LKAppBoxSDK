@@ -1,5 +1,5 @@
 framework module LKAppBoxSDK {
-  umbrella header "LKAppBoxSDK-umbrella.h"
+  umbrella header "LKAppBoxSDK.h"
 
   export *
   module * { export * }
