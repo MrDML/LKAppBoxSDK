@@ -11,7 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol LKAppBoxManagerDelegate <NSObject>
+
+@optional
+- (void)appboxGagmeDidLoadDisplay;
+
+@end
+
 @interface LKAppBoxManager : NSObject
+@property (nonatomic, weak) id <LKAppBoxManagerDelegate> delegate;
 + (instancetype)instance;
 /// 初始化AppBoxSDK
 /// @param folderPath 项目目录引用路径
@@ -44,6 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frmae withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath;
 /// 展示游戏
 - (void)loadGameToDisplay;
+- (void)loadGameJS_OCTestToDisplay;
 /// 重新布局
 - (void)gameViewDidLayoutSubviews;
 @end

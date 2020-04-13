@@ -1,5 +1,5 @@
 PODS:
-  - LKAppBoxSDK (0.1.4):
+  - LKAppBoxSDK (0.1.5):
     - SSZipArchive (~> 2.2.2)
   - SSZipArchive (2.2.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LKAppBoxSDK: 77b5bf0335eba06a528ec389ced5e760ade1b2fa
+  LKAppBoxSDK: 5bb89b15d42ebb1f61b24a149600955fcaf65241
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
 
 PODFILE CHECKSUM: 2e1d2f1088b85658a4085650f22dbed726d5ce3c

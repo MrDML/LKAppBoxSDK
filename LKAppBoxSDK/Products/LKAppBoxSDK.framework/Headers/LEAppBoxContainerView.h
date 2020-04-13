@@ -16,10 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)NSString *webPath;
 @property (nonatomic, strong) id objectApi;
 
+@property (nonatomic, copy) void(^loadCompleteHander)(void);
+
 // 加载本地请求
 - (void)loadRequest:(NSURLRequest *)request;
 // 重新布局
 - (void)gameViewDidLayoutSubviews;
+
+
 
 @end
 
