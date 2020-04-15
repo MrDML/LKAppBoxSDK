@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @protocol LKAppBoxManagerDelegate <NSObject>
 
@@ -50,11 +50,17 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param objcetApi 接口定义类
 /// @param jsPath js路径
 - (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frmae withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath;
-/// 展示游戏
+/// 加载本地游戏
 - (void)loadGameToDisplay;
+/// 加载配配置文件中的远程游戏
+- (void)loadRemoteGame;
+// 加载远程游戏
+- (void)loadRemoteServerGameURL:(NSURL *)url;
+/// 测试js-oc 使用
 - (void)loadGameJS_OCTestToDisplay;
 /// 重新布局
 - (void)gameViewDidLayoutSubviews;
+
 @end
 
-NS_ASSUME_NONNULL_END
+
