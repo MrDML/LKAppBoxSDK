@@ -28,19 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/MrDML/LKAppBoxSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
    s.ios.deployment_target = '8.0'
-  if ENV['IS_SOURCE']
-       
-      #  s.static_framework = true
-        s.source_files = 'LKAppBoxSDK/Classes/**/*'
-        s.resources = "LKAppBoxSDK/Assets/*.*"
-        s.dependency 'SSZipArchive', '~> 2.2.2'
-        
-  else
-     s.vendored_frameworks = "LKAppBoxSDK/Products/LKAppBoxSDK.framework"
-     s.resources = "LKAppBoxSDK/Assets/*.*"
-     s.dependency 'SSZipArchive', '~> 2.2.2'
-    
-  end
+  s.vendored_frameworks = "LKAppBoxSDK/Products/LKAppBoxSDK.framework"
+  s.resources = "LKAppBoxSDK/Assets/*.*"
+  s.dependency 'SSZipArchive', '~> 2.2.2'
 
   
 #  s.dependency 'Bytedance-UnionAD', '~> 2.7.5.2'
