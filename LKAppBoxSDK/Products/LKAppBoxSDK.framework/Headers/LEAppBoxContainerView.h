@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class DWKWebView;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LEAppBoxContainerView : UIViewController
@@ -22,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadRequest:(NSURLRequest *)request;
 // 重新布局
 - (void)gameViewDidLayoutSubviews;
-
+@property (nonatomic , strong ) DWKWebView *webView; //内容webview
 
 
 @end

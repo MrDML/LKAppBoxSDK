@@ -9,17 +9,21 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-
+@class LEAppBoxContainerView;
 
 @protocol LKAppBoxManagerDelegate <NSObject>
 
 @optional
 - (void)appboxGagmeDidLoadDisplay;
+- (void)appboxInitializaSuccess;
 
 @end
 
 @interface LKAppBoxManager : NSObject
 @property (nonatomic, weak) id <LKAppBoxManagerDelegate> delegate;
+@property (nonatomic, strong) LEAppBoxContainerView *appBoxVC;
+@property (nonatomic, assign)  BOOL isInitSuccess;
+@property (nonatomic, assign,readonly)  BOOL isExistWebFolder;
 + (instancetype)instance;
 /// 初始化AppBoxSDK
 /// @param folderPath 项目目录引用路径
@@ -46,16 +50,22 @@
 
 /// 初始化游戏视图
 /// @param rootViewController rootViewController g根控制器
-/// @param frmae 视图frame
+/// @param frame 视图frame
 /// @param objcetApi 接口定义类
 /// @param jsPath js路径
-- (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frmae withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath;
+- (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frame withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath;
+
+/// 初始化游戏视图
+/// @param rootViewController rootViewController 根控制器
+/// @param frame 视图frame
+/// @param objcetApi 接口定义类
+- (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frame withObjcetApi:(id)objcetApi;
 /// 加载本地游戏
-- (void)loadGameToDisplay;
+- (void)loadLocalGameToDisplay;
 /// 加载配配置文件中的远程游戏
-- (void)loadRemoteGame;
+- (void)loadRemoteMenuGameToDisplay;
 // 加载远程游戏
-- (void)loadRemoteServerGameURL:(NSURL *)url;
+- (void)loadRemoteServerGameURLToDisplay:(NSURL *)url;
 /// 测试js-oc 使用
 - (void)loadGameJS_OCTestToDisplay;
 /// 重新布局
