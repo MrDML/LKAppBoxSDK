@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger,LKAESENCRYPT) {
+    LKAESENCRYPT_CBC = 1,
+    LKAESENCRYPT_ECB
+};
+
 @class LEAppBoxContainerView;
 
 @protocol LKAppBoxManagerDelegate <NSObject>
@@ -21,9 +26,14 @@
 
 @interface LKAppBoxManager : NSObject
 @property (nonatomic, weak) id <LKAppBoxManagerDelegate> delegate;
-@property (nonatomic, strong) LEAppBoxContainerView *appBoxVC;
+@property (nonatomic, strong,readonly) LEAppBoxContainerView *appBoxVC;
 @property (nonatomic, assign)  BOOL isInitSuccess;
+@property (nonatomic, assign) BOOL isEncrypt; // 是否对bundle 进行了加密处理
 @property (nonatomic, assign,readonly)  BOOL isExistWebFolder;
+
+// 加密部分
+@property (nonatomic, assign) LKAESENCRYPT encryptStyle;
+@property (nonatomic, strong) NSDictionary *bundleJsLocalOpeners;
 + (instancetype)instance;
 /// 初始化AppBoxSDK
 /// @param folderPath 项目目录引用路径
@@ -55,11 +65,22 @@
 /// @param jsPath js路径
 - (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frame withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath;
 
+
+/// 初始化游戏视图
+/// @param rootViewController rootViewController g根控制器
+/// @param frame 视图frame
+/// @param objcetApi 接口定义类
+/// @param jsPath  js路径
+/// @param isEncrypt <#isEncrypt description#>
+- (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frame withObjcetApi:(id)objcetApi withAppendingJavaScriptPathComponent:(NSString *)jsPath withBundleJSIsEncrypt:(BOOL)isEncrypt;
+
 /// 初始化游戏视图
 /// @param rootViewController rootViewController 根控制器
 /// @param frame 视图frame
 /// @param objcetApi 接口定义类
 - (void)initializationAppGameRootViewController:(UIViewController *)rootViewController withViewFrame:(CGRect)frame withObjcetApi:(id)objcetApi;
+
+
 /// 加载本地游戏
 - (void)loadLocalGameToDisplay;
 /// 加载配配置文件中的远程游戏

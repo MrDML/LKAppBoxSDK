@@ -19,7 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) id objectApi;
 
 @property (nonatomic, copy) void(^loadCompleteHander)(void);
-
+@property (nonatomic, assign) BOOL isEncrypt; // 是否对bundle 进行了加密处理
+@property (nonatomic, strong) NSDictionary *bundleJsLocalOpeners;
+@property (nonatomic, assign) int encryptStyle; // 加密方式
 // 加载本地请求
 - (void)loadRequest:(NSURLRequest *)request;
 // 重新布局
